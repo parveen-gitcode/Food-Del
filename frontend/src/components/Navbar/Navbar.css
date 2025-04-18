@@ -132,3 +132,19 @@
 .nav-profile-dropdown li:hover {
   color: tomato;
 }
+
+@media (max-width: 750px) {
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-right {
+    gap: 20px;
+  }
+  .navbar-right img {
+    width: 20px;
+  }
+  .navbar-right bottom {
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
