@@ -33,6 +33,11 @@ const LoginPopup = ({ setShowLogin }) => {
       setCurrState("Login");
     }
   };
+  const onChangeHandler = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setData((data) => ({ ...data, [name]: value }));
+  };
 };
 
 export default LoginPopup;
