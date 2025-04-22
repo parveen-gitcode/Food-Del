@@ -20,3 +20,24 @@
   border: 1px solid tomato;
 }
 
+.my-orders-order img {
+  width: 50px;
+}
+
+.my-orders-order p span {
+  color: tomato;
+}
+.my-orders-order p b {
+  font-weight: 500;
+  color: #454545;
+}
+
+.my-orders-order button {
+  border: none;
+  padding: 12px 0px;
+  border-radius: 4px;
+  background-color: #ffe1e1;
+  cursor: pointer;
+  color: #454545;
+}
+
